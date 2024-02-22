@@ -3,7 +3,7 @@ function buatSheetBaru() {
   var sourceSheet = spreadsheet.getSheetByName("Master");
   
   // Daftar nama-nama untuk sheet baru
-  var namaSheetBaru = ["Rename 1","REname 2"];
+  var namaSheetBaru = ["Rename 1","Rename 2"];
   
   // Loop untuk membuat salinan dari lembar kerja "Master" dan menamai ulang
   for (var i = 0; i < namaSheetBaru.length; i++) {
